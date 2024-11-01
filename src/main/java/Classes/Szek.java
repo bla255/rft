@@ -44,4 +44,15 @@ public String getId() {
     public SzekAllapota getSzekallapota() {
         return szekallapota;
     }
+
+    public void setAllapot(SzekAllapota szekallapota){
+        this.szekallapota = szekallapota;
+    }
+
+
+    @Override
+    public String toString() {
+        return  "Oszlop: " + this.getOszlop() +
+                ", Sor: " + this.getSor();
+    }
 }

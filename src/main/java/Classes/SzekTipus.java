@@ -1,7 +1,7 @@
 package Classes;
 
 public enum SzekTipus {
-    NORMAL,
+    SIMA,
     VIP,
     IMAX
 }

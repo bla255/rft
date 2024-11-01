@@ -18,4 +18,16 @@ public class Mozi {
         this.cim = cim;
         this.vetitesek = vetitesek;
     }
+
+    public String getNev() {
+        return nev;
+    }
+
+    public String getVaros() {
+        return varos;
+    }
+
+    public String getCim() {
+        return cim;
+    }
 }

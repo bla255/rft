@@ -8,7 +8,7 @@ public class Vetites {
     private final Film film;
     private final Mozi mozi;
     private final LocalDateTime kezdes;
-    private final LocalDateTime endtime;
+    private final LocalDateTime befejezes;
     private final Map<String, Szek> szekek;
 
 
@@ -17,7 +17,7 @@ public class Vetites {
         this.film = film;
         this.mozi = mozi;
         this.kezdes = kezdes;
-        this.endtime = endtime;
+        this.befejezes = endtime;
         this.szekek = szekek;
     }
 
@@ -37,8 +37,8 @@ public class Vetites {
         return kezdes;
     }
 
-    public LocalDateTime getEndtime() {
-        return endtime;
+    public LocalDateTime getBefejezes() {
+        return befejezes;
     }
 
     public Map<String, Szek> getSzekek() {
