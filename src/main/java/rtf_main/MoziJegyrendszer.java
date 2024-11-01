@@ -103,7 +103,7 @@ public synchronized void FoglalasTorol(String foglalasId){
         Foglalas foglalas = foglalasok.get(foglalasId);
         if ( foglalas != null && foglalas.getFoglalasallapota() != FoglalasAllapota.TOROLVE){
             foglalas.setFoglalasAllapota(FoglalasAllapota.TOROLVE);
-            szeketLefoglal(foglalas.getVetites(), foglalas.getSzekek());
+            szekElerheto(foglalas.getVetites(), foglalas.getSzekek());
         }
 }
 private void szekElerheto(Vetites vetites, List<Szek> szekek){
