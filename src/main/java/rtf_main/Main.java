@@ -73,7 +73,6 @@ public class Main {
             System.out.println("Foglalás állapota: " + foglalas.getFoglalasallapota());
             System.out.println("Foglalás tulajdonosa: " + foglalas.getFelhasznalo().getFelhasznalonev() + " (Jogosultsagszint: " + foglalas.getFelhasznalo().getExtra_jogosultsag()+ ")");
             System.out.println("Foglalás filmje: " + foglalas.getVetites().getFilm().getCim());
-        System.out.println("Lefoglalt szék(ek):");
         System.out.println("Lefoglalt székek:");
         for (Szek szek : foglalas.getSzekek()) {
             System.out.println(szek);
