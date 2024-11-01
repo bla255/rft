@@ -8,10 +8,10 @@ public class Felhasznalo {
     private final int nem;
     private final String email;
     private final String telefon;
-    private final int extra_jogosultsag;
+    private final JogosultsagTipus extra_jogosultsag;
 
 
-    public Felhasznalo(String id, String felhasznalonev, String vezeteknev, String keresztnev, int nem, String email, String telefon, int extra_jogosultsag) {
+    public Felhasznalo(String id, String felhasznalonev, String vezeteknev, String keresztnev, int nem, String email, String telefon, JogosultsagTipus extra_jogosultsag) {
         this.id = id;
         this.felhasznalonev = felhasznalonev;
         this.vezeteknev = vezeteknev;
@@ -24,5 +24,9 @@ public class Felhasznalo {
 
     public String getFelhasznalonev() {
         return felhasznalonev;
+    }
+
+    public JogosultsagTipus getExtra_jogosultsag() {
+        return extra_jogosultsag;
     }
 }

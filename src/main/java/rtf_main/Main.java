@@ -30,16 +30,10 @@ public class Main {
         Map<String, Szek> szekek = SzekekLetrehozasa(3, 3);
         Vetites vetites1 = new Vetites("V1", elsofilm, mozi, kezdes, befejezes, szekek);
 
-        Felhasznalo felhasznalo = new Felhasznalo("1", "jegyvasrlo123", "Jegyes","Sandor",1,"jegy@felvasarlo.hu","+3690909090",0);
+        Felhasznalo felhasznalo = new Felhasznalo("1", "jegyvasrlo123", "Jegyes","Sandor",1,"jegy@felvasarlo.hu","+3690909090",JogosultsagTipus.NORMAL);
         List<Szek> kivalasztottSzek = Arrays.asList(vetites1.getSzekek().get("1-3"), vetites1.getSzekek().get("1-2"));
         Foglalas foglalas = moziJegyrendszer.foglaltJegyek(felhasznalo, vetites1, kivalasztottSzek);
-        if (foglalas != null) {
-            System.out.println("Szekek befoglalasa sikeres. Tranzakcioazonosito: " + foglalas.getId());
-            moziJegyrendszer.FoglalasVeglegesit(foglalas.getId());
 
-        } else {
-            System.out.println("Szekek befoglalasa nem sikerult, talan nem szabadok a kivalasztott helyek?");
-        }
 
 
         for (Film film : moziJegyrendszer.getFilmek()) {
@@ -67,11 +61,17 @@ public class Main {
             System.out.println("Szék állapota: " + szek.getSzekallapota());
             System.out.println("------");
         }
+        if (foglalas != null) {
+            System.out.println("Szekek befoglalasa sikeres. Tranzakcioazonosito: " + foglalas.getId());
+            moziJegyrendszer.FoglalasVeglegesit(foglalas.getId());
 
+        } else {
+            System.out.println("Szekek befoglalasa nem sikerult, talan nem szabadok a kivalasztott helyek?");
+        }
         System.out.println("------Vasarlas adatai--------");
             System.out.println("Foglalás id: " + foglalas.getId());
             System.out.println("Foglalás állapota: " + foglalas.getFoglalasallapota());
-            System.out.println("Foglalás tulajdonosa: " + foglalas.getFelhasznalo().getFelhasznalonev());
+            System.out.println("Foglalás tulajdonosa: " + foglalas.getFelhasznalo().getFelhasznalonev() + " (Jogosultsagszint: " + foglalas.getFelhasznalo().getExtra_jogosultsag()+ ")");
             System.out.println("Foglalás filmje: " + foglalas.getVetites().getFilm().getCim());
         System.out.println("Lefoglalt szék(ek):");
         System.out.println("Lefoglalt székek:");
