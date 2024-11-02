@@ -30,7 +30,12 @@ public String getId(){
 public Felhasznalo getFelhasznalo(){
             return felhasznalo;
 }
-public Vetites getVetites(){
+
+    public void setFoglalasallapota(FoglalasAllapota foglalasallapota) {
+        this.foglalasallapota = foglalasallapota;
+    }
+
+    public Vetites getVetites(){
             return vetites;
 }
 public List<Szek> getSzekek(){
@@ -43,9 +48,4 @@ public FoglalasAllapota getFoglalasallapota(){
             return foglalasallapota;
 
 }
-
-
-
-
-
 }

@@ -66,7 +66,7 @@ public class MoziJegyrendszer {
 
     }
 
-    private boolean SzekElerheto(Vetites vetites, List<Szek> kivalasztottSzekek) {
+    public boolean SzekElerheto(Vetites vetites, List<Szek> kivalasztottSzekek) {
         for (Szek szek : kivalasztottSzekek) {
             Szek szekMutat = vetites.getSzekek().get(szek.getId());
             if (szekMutat == null || szekMutat.getSzekallapota() != SzekAllapota.SZABAD) {
@@ -103,7 +103,7 @@ public synchronized void FoglalasTorol(String foglalasId){
         Foglalas foglalas = foglalasok.get(foglalasId);
         if ( foglalas != null && foglalas.getFoglalasallapota() != FoglalasAllapota.TOROLVE){
             foglalas.setFoglalasAllapota(FoglalasAllapota.TOROLVE);
-            szekElerheto(foglalas.getVetites(), foglalas.getSzekek());
+            szeketLefoglal(foglalas.getVetites(), foglalas.getSzekek());
         }
 }
 private void szekElerheto(Vetites vetites, List<Szek> szekek){
@@ -115,7 +115,42 @@ private void szekElerheto(Vetites vetites, List<Szek> szekek){
 
 }
 
+    public boolean torolFilm(String filmId) {
+        return filmek.removeIf(film -> film.getId().equals(filmId));
+    }
 
+    // Film módosítása
+    public boolean modositFilm(String filmId, Film ujFilmAdatok) {
+        for (int i = 0; i < filmek.size(); i++) {
+            if (filmek.get(i).getId().equals(filmId)) {
+                filmek.set(i, ujFilmAdatok);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Vetítés törlése
+    public boolean torolVetites(String vetitesId) {
+        Vetites toroltVetites = vetitesek.remove(vetitesId);
+        if (toroltVetites != null) {
+            szekElerheto(toroltVetites, new ArrayList<>(toroltVetites.getSzekek().values())); // székek felszabadítása
+            return true;
+        }
+        return false;
+    }
+
+    // Vetítés módosítása
+    public boolean modositVetites(String vetitesId, Vetites ujVetitesAdatok) {
+        if (vetitesek.containsKey(vetitesId)) {
+            vetitesek.put(vetitesId, ujVetitesAdatok);
+            return true;
+        }
+        return false;
+    }
+    public Foglalas getFoglalas(String foglalasId) {
+        return foglalasok.get(foglalasId);
+    }
 
 }
 
