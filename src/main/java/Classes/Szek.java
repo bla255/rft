@@ -46,6 +46,7 @@ public String getId() {
     }
 
     public void setAllapot(SzekAllapota szekallapota){
+
         this.szekallapota = szekallapota;
     }
 
