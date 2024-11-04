@@ -4,7 +4,7 @@ public class ErtesitesKuld {
     public static void kuldes(Ertesites ertesites, String cimzett, String tipus) {
         switch (tipus.toLowerCase()) {
             case "email":
-                System.out.println("Értesítés e-mailben küldése a következő címre: " + cimzett);
+                System.out.println("Értesítés küldése e-mailben a következő címre: " + cimzett);
                 System.out.println("Tartalom: " + ertesites.getTartalom());
                 break;
             case "mobil":
