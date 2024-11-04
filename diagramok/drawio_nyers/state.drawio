@@ -1,0 +1,368 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.1">
+  <diagram name="1 oldal" id="vHuk7XNt6AyX1NAS5D28">
+    <mxGraphModel dx="2280" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Állapot diagram&lt;br&gt;Web esetén&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="10" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-2" target="Wqvd31Kr-AGyx_VU-sn1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-5" value="Betöltés" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-4">
+          <mxGeometry x="0.0296" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-2" value="START" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-3" target="Wqvd31Kr-AGyx_VU-sn1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-8" value="Admin bejelentkezés" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-7">
+          <mxGeometry x="0.0167" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-3" target="Wqvd31Kr-AGyx_VU-sn1-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-3" target="Wqvd31Kr-AGyx_VU-sn1-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-110" value="Jegyárus bejelentkezés" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-108">
+          <mxGeometry x="0.181" y="1" relative="1" as="geometry">
+            <mxPoint x="-4" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-3" value="Kezdőlap" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-6" target="Wqvd31Kr-AGyx_VU-sn1-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="360" />
+              <mxPoint x="90" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-23" value="Módosít, &lt;br&gt;Létrehoz, &lt;br&gt;Töröl gombok" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-12">
+          <mxGeometry x="-0.1667" y="2" relative="1" as="geometry">
+            <mxPoint x="38" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-6" target="Wqvd31Kr-AGyx_VU-sn1-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-28" value="Kijelentkezés" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-27">
+          <mxGeometry x="-0.1238" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-6" value="Admin felület" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-11" target="Wqvd31Kr-AGyx_VU-sn1-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-17" value="Mentés" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-14">
+          <mxGeometry x="-0.0417" y="1" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-11" target="Wqvd31Kr-AGyx_VU-sn1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-25" value="Vissza gomb" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-24">
+          <mxGeometry x="-0.0583" y="2" relative="1" as="geometry">
+            <mxPoint x="-38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-11" value="Film létrehozás, módosítás&lt;br&gt;Vetítés létrehozás, módosítás" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-13" target="Wqvd31Kr-AGyx_VU-sn1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-16" value="Módosítások &lt;br&gt;mentése sikeres" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-15">
+          <mxGeometry x="0.0933" y="3" relative="1" as="geometry">
+            <mxPoint x="13" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-13" value="Adatbázis DDL" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-26" value="STOP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-35" target="Wqvd31Kr-AGyx_VU-sn1-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-35" target="Wqvd31Kr-AGyx_VU-sn1-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-44" value="Kiválasztott film&lt;br&gt;részletei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-43">
+          <mxGeometry x="-0.0222" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-35" value="Adatbázis lekérdezés" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-38" target="Wqvd31Kr-AGyx_VU-sn1-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-41" value="Kiválasztott film részletei" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-40">
+          <mxGeometry x="-0.0909" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-38" value="Filmek listázása" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-42" target="Wqvd31Kr-AGyx_VU-sn1-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-47" value="Jegyvásárlás" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-46">
+          <mxGeometry x="-0.15" y="3" relative="1" as="geometry">
+            <mxPoint x="37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-42" value="Részletes film leírás" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-45" target="Wqvd31Kr-AGyx_VU-sn1-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-49" value="Vissza" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-48">
+          <mxGeometry x="-0.2333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-45" target="Wqvd31Kr-AGyx_VU-sn1-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-61" value="Sikeres" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-51">
+          <mxGeometry x="0.125" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-45" value="Vetítés kiválasztása" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-50" target="Wqvd31Kr-AGyx_VU-sn1-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-53" value="Vissza" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-52">
+          <mxGeometry x="-0.2606" y="1" relative="1" as="geometry">
+            <mxPoint x="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-50" target="Wqvd31Kr-AGyx_VU-sn1-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-62" value="Sikeres" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-60">
+          <mxGeometry x="0.25" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-50" value="Szék(ek) kiválasztása" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-55" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="810" as="sourcePoint" />
+            <mxPoint x="500" y="925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-56" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="610" as="sourcePoint" />
+            <mxPoint x="500" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-57" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="920" as="sourcePoint" />
+            <mxPoint x="500" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-58" value="Megszakítás" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-57">
+          <mxGeometry x="-0.3226" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-59" target="Wqvd31Kr-AGyx_VU-sn1-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-59" target="Wqvd31Kr-AGyx_VU-sn1-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-93" value="Adatok&lt;br&gt;rögzítése&lt;br&gt;sikeres" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-92">
+          <mxGeometry x="0.2745" y="4" relative="1" as="geometry">
+            <mxPoint x="16" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-59" value="Személyes adatok&lt;br&gt;Fizetési mód kiválasztása" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-63" value="" style="endArrow=none;html=1;rounded=0;exitX=1.031;exitY=0.628;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="1110" as="sourcePoint" />
+            <mxPoint x="500" y="1058" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-64" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1060" as="sourcePoint" />
+            <mxPoint x="500" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-65" value="Megszakítás" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-64">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-66" target="Wqvd31Kr-AGyx_VU-sn1-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-72" value="Nincs &lt;br&gt;regisztráció" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-71">
+          <mxGeometry x="-0.3167" y="-3" relative="1" as="geometry">
+            <mxPoint x="-13" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-66" target="Wqvd31Kr-AGyx_VU-sn1-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-75" value="Bejelentkezés" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-74">
+          <mxGeometry x="0.0333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-66" value="Nincs bejelentkezve&lt;br&gt;Bejelentkezés" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-70" target="Wqvd31Kr-AGyx_VU-sn1-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-90" value="Adatok &lt;br&gt;beküldése" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-83">
+          <mxGeometry x="-0.1583" y="2" relative="1" as="geometry">
+            <mxPoint x="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-70" value="Regisztráció" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-73" target="Wqvd31Kr-AGyx_VU-sn1-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-77" value="&amp;nbsp;OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-76">
+          <mxGeometry x="-0.2618" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-73" value="Adatok ellenőrzése adatbázisban" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.097;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-73" target="Wqvd31Kr-AGyx_VU-sn1-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-81" value="Adatok nem OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-80">
+          <mxGeometry x="-0.0332" y="2" relative="1" as="geometry">
+            <mxPoint x="-38" y="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-82" target="Wqvd31Kr-AGyx_VU-sn1-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-85" value="Foglalt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-84">
+          <mxGeometry x="0.0593" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-82" target="Wqvd31Kr-AGyx_VU-sn1-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-88" value="Nem foglalt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-87">
+          <mxGeometry x="-0.0917" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-82" value="Adatok / foglaltság ellenőrzése adatbázisban" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-86" target="Wqvd31Kr-AGyx_VU-sn1-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-86" value="Adatbázis DDL beillesztés" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-91" target="Wqvd31Kr-AGyx_VU-sn1-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-100" value="Adatok beküldve" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-99">
+          <mxGeometry x="0.2804" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-91" value="Fizetés" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-94" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-91">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="1330" as="sourcePoint" />
+            <mxPoint x="500" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-95" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1280" as="sourcePoint" />
+            <mxPoint x="500" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-96" target="Wqvd31Kr-AGyx_VU-sn1-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-98" value="Fizetés nem sikerült" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-97">
+          <mxGeometry x="0.1633" y="-4" relative="1" as="geometry">
+            <mxPoint x="-16" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-96" target="Wqvd31Kr-AGyx_VU-sn1-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-96" value="Fizetés feldolgozása" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-101" target="Wqvd31Kr-AGyx_VU-sn1-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-106" value="Adatbázis DDL jegy adatokkal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wqvd31Kr-AGyx_VU-sn1-105">
+          <mxGeometry x="0.3148" y="-3" relative="1" as="geometry">
+            <mxPoint x="-28" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wqvd31Kr-AGyx_VU-sn1-101" target="Wqvd31Kr-AGyx_VU-sn1-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-101" value="Elkészült jegy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-103" value="Fizetés OK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1360" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-104" value="Adatbázis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-107" value="Jegyárus felület" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wqvd31Kr-AGyx_VU-sn1-113" value="STOP" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1540" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
