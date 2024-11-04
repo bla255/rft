@@ -83,6 +83,16 @@ public class Main {
         //moziJegyrendszer.FoglalasTorol(foglalas.getId());
        // System.out.println("Foglalast toroltem, Foglalas azonositoja: " + foglalas.getId());
 
+        /*
+        Ertesites ertesites = new Ertesites("1", "Teszt értesítés.");
+         Értesítés küldése e-mail címre
+        ertesites.kuldesErtesites("teszt@emailcim.hu", "email");
+        Értesítés küldése mobilra
+        ertesites.kuldesErtesites("36302897995", "mobil");
+*/
+
+
+
         return moziJegyrendszer;
     }
 
