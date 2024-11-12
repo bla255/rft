@@ -7,22 +7,36 @@ import java.util.*;
 
 
 /**
- * A mozi jegyrendszer fő osztálya, amely felelős a mozi, filmek és foglalások kezeléséért.
- * A rendszer lehetővé teszi filmek, mozik, vetítések és jegyek kezelését.
+ * A rendszer felhasználók számára mozijegyek foglalását biztosít. A felhasználó kiválaszthatja a filmeket,
+ *  * a vetítéseket, és lefoglalhatja a székeket a kívánt időpontokban.
+ * @author Orosz Richard, Kulcsar Bela, Kocserha Patrik
+ * @version 0.1 alpha
  */
+
 
 public class Main {
 
+
+
+    /**
+     * Az alapértelmezett konstruktor a Main osztály számára.
+     * A konstruktor automatikusan létrehozza a MoziJegyrendszer példányt.
+     */
+    public Main() {
+        //Üres konstruktor
+    }
+
+
     /**
      * A fő függvény, amely elindítja a mozi jegyrendszert és végrehajtja az alapvető műveleteket.
-     *
      * @param args parancssori argumentumok
-     * @return A MoziJegyrendszer példány, amely tartalmazza az összes filmadatot és mozit.
      */
+
     public static void main(String[] args) {
         MoziJegyrendszer moziJegyrendszer = run();
 
     }
+
     /**
      * Inicializálja a mozi jegyrendszert, létrehoz filmeket, mozikat, vetítéseket,
      * valamint végrehajt egy jegyfoglalást, majd kiírja a rendszer adatait.
@@ -52,7 +66,8 @@ public class Main {
         Vetites vetites1 = new Vetites("V1", elsofilm, mozi, kezdes, befejezes, szekek);
 
         // Foglalás létrehozása
-        Felhasznalo felhasznalo = new Felhasznalo("1", "jegyvasrlo123");
+        Felhasznalo felhasznalo = new Felhasznalo("1", "jegyvasrlo123", "asdasd", "Kiss", "Jancsi", 1,"teszt@teszt.hu", "3630303030", JogosultsagTipus.NORMAL);
+
         List<Szek> kivalasztottSzek = Arrays.asList(vetites1.getSzekek().get("1-3"), vetites1.getSzekek().get("1-2"));
         Foglalas foglalas = moziJegyrendszer.foglaltJegyek(felhasznalo, vetites1, kivalasztottSzek);
 

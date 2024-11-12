@@ -22,6 +22,14 @@ public class FelhasznaloTest {
 
 
     /**
+     * Alapértelmezett konstruktor a FelhasznaloTest osztály számára.
+     */
+    public FelhasznaloTest() {
+        //Üres konstruktor - javadoc miatt
+    }
+
+
+    /**
      * Beállítja a teszt környezetet minden egyes teszt előtt.
      * Inicializálja a MoziJegyrendszert a Main.run() metódussal.
      */

@@ -9,6 +9,14 @@ package Classes;
 
 public class ErtesitesKuld {
 
+
+    /**
+     * Alapértelmezett konstruktor az ErtesitesKuld osztály számára.
+     */
+    public ErtesitesKuld() {
+        //Üres konstruktor - javadoc
+    }
+
     /**
      * Elküldi az értesítést a megadott címzettnek a megadott csatornán (pl. e-mail vagy mobil).
      * Az értesítési csatorna típusa szerint különböző formátumban jeleníti meg az értesítést.
