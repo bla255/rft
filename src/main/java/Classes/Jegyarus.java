@@ -4,14 +4,32 @@ import rtf_main.MoziJegyrendszer;
 
 import java.util.List;
 
+/**
+ * A Jegyarus osztály felelős a jegyfoglalások, törlések és módosítások kezeléséért
+ * a mozijegy árus / kiosk részére (Fejlesztés szükséges - ez csak a példa hozzá!).
+ */
+
+
 public class Jegyarus {
     private final MoziJegyrendszer moziJegyrendszer;
+
+
+    /**
+     * Alapértelmezett konstruktor, amely inicializálja a mozi jegyrendszert.
+     */
 
     public Jegyarus() {
         this.moziJegyrendszer = MoziJegyrendszer.getInstance();
     }
 
-    // Jegyfoglalás
+    /**
+     * Létrehoz egy új foglalást egy felhasználó számára a megadott vetítéshez és székekhez.
+     *
+     * @param felhasznalo       A foglalást végző felhasználó.
+     * @param vetites           A vetítés, amelyre a foglalás történik.
+     * @param kivalasztottSzekek A felhasználó által kiválasztott székek listája.
+     * @return A létrejött foglalás objektuma, vagy null, ha a foglalás sikertelen.
+     */
     public Foglalas jegyetFoglalni(Felhasznalo felhasznalo, Vetites vetites, List<Szek> kivalasztottSzekek) {
         Foglalas foglalas = moziJegyrendszer.foglaltJegyek(felhasznalo, vetites, kivalasztottSzekek);
         if (foglalas != null) {
@@ -22,7 +40,13 @@ public class Jegyarus {
         return foglalas;
     }
 
-    // Jegytörlés
+    /**
+     * Töröl egy létező foglalást a megadott foglalásazonosító alapján.
+     *
+     * @param foglalasId A törölni kívánt foglalás azonosítója.
+     * @return Igaz, ha a törlés sikeres, egyébként hamis.
+     */
+
     public boolean jegyetTorolni(String foglalasId) {
         Foglalas foglalas = moziJegyrendszer.getFoglalas(foglalasId);
         if (foglalas != null && foglalas.getFoglalasallapota() != FoglalasAllapota.TOROLVE) {
@@ -34,7 +58,14 @@ public class Jegyarus {
         return false;
     }
 
-    // Jegymódosítás
+    /**
+     * Módosít egy létező foglalást új székekre a megadott foglalásazonosító alapján.
+     *
+     * @param foglalasId A módosítani kívánt foglalás azonosítója.
+     * @param ujSzekek   Az újonnan kiválasztott székek listája.
+     * @return Igaz, ha a módosítás sikeres, egyébként hamis - terminálra kiírja mindkét esetet, kivételként pedig hibaüzenet.
+     */
+
     public boolean jegyetModositani(String foglalasId, List<Szek> ujSzekek) {
         Foglalas foglalas = moziJegyrendszer.getFoglalas(foglalasId);
         if (foglalas != null && foglalas.getFoglalasallapota() == FoglalasAllapota.ELOFOGLALVA) {
